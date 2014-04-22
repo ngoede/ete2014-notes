@@ -41,3 +41,14 @@ The extensible web manifesto <--Look this up
   - Allows faster turn around than current wait for standards board and vendors
 
 Docker <--Linux deployment containers
+
+
+Serverside vs client side
+ - Client side JS allows you to make a much more interactable application
+ 
+Integration Testing
+ - Don't believe in end to end tests
+ - Treat rails backend as API layer and test that directly
+ - QUnit
+ - Ember.js has testing api
+ - Stub server side requests when testing client via static JSON responses
